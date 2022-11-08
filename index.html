@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous"> -->
+</head>
+<body>
+    <div class="head">
+        <h1>Diet App</h1>
+        <h2>Welcome to your Artificial Intelligence Dietitian</h2>
+        <h3>Get your personalized diet chart</h3>
+    </div>
+      <div class="form-hold">
+        <form onsubmit="analyse()">
+            <label class="lable">Name :</label><br><input type="text" placeholder="Name" id="name" size="100"><br>
+            <label class="lable">Weight :</label><br><input type="integer" placeholder="Weight" id="weight" name="weight" size="100"><br>
+            <label class="lable">Height :</label><br><input type="integer" placeholder="Height" id="height" name="height"  size="100"><br>
+            <label class="lable">Age :</label><br><input type="integer" placeholder="Age" id="age" name="age" size="100"><br>
+            <label class="lable">Gender:</label><br><input type="radio" name="gender" id="option1" value="Male"  size="100"> Male<br>
+                            <input type="radio" name="gender" id="option2" value="Female"  size="100">Female 
+            <br>
+            <label class="lable">Physical Activity</label><br>
+            <input type="radio" name="physical_activity">Sedantary(little or no exercise)<br>
+            <input type="radio" name="physical_activity">Light Active(1-3days/week)<br>
+            <input type="radio" name="physical_activity">Moderately Active(3-5 days/week)<br>
+            <input type="radio" name="physical_activity">Very Active(6-7 days/week)<br>
+            <input type="radio" name="physical_activity">Super Active(twice/day)<br><br>
+            <input type="submit" name="Submit" value="submit" id="submit-btn">
+        </form>
+      </div>
+</body>
+</html>

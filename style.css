@@ -1,0 +1,21 @@
+.form-hold{
+    width: 80%;
+    /* text-align: center; */
+    margin-left: 10%;
+    padding-left: 5%;
+    background-color: antiquewhite;
+}
+.lable{
+    font-size: larger;
+    font-weight: 600;
+}
+.head{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+#submit-btn{
+    background-color: rgb(10, 212, 10);
+}
+submit-btn:hover{
+    background-color: green;
+}
